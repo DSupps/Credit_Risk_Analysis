@@ -55,10 +55,14 @@ Software:
 
 ## Deliverable 2 Results: Use the SMOTEENN Algorithm to Predict Credit Risk
 
-#### Combination Sampling SMOTEENN Model:
-combo image 1
-combo image 2
-combo image 3
+### Combination Sampling SMOTEENN Model:
+
+![combo_balanced_accuracy](https://user-images.githubusercontent.com/36451701/129460722-b30b8979-fb61-46d7-8d79-1edb6e29e879.png)
+
+![combo_confusion_matrix](https://user-images.githubusercontent.com/36451701/129460732-945aa41b-bde0-4c7d-a58c-42d8322b454a.png)
+
+![combo_classification_report](https://user-images.githubusercontent.com/36451701/129460736-eda47aad-3b26-4be5-8599-0c853f49e2b7.png)
+
 
 ### Deliverable 3 Results: Use Ensemble Classifiers to Predict Credit Risk
 
