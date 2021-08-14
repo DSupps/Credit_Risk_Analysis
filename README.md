@@ -19,7 +19,8 @@ Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 Deliverable 4: A Written Report on the Credit Risk Analysis
 
 ### Resources:
-Data Sources: LoanStats_2019Q1.csv
+Data Sources: 
+    - LoanStats_2019Q1.csv
 
 Software:
     - Jupyter Notebook
@@ -64,11 +65,15 @@ Software:
 ![combo_classification_report](https://user-images.githubusercontent.com/36451701/129460736-eda47aad-3b26-4be5-8599-0c853f49e2b7.png)
 
 
-### Deliverable 3 Results: Use Ensemble Classifiers to Predict Credit Risk
+## Deliverable 3 Results: Use Ensemble Classifiers to Predict Credit Risk
 
-#### Balanced Random Forest Classifier
+### Balanced Random Forest Classifier Model:
 
+![balanced_random_forest_classification](https://user-images.githubusercontent.com/36451701/129460824-8527e234-53ee-4489-afb2-327c5794b0a0.png)
 
-#### Easy Ensemble AdaBoost Classifier
+### Easy Ensemble AdaBoost Classifier Model:
+
+![Easy_Ensemble_AdaBoost_Classifier](https://user-images.githubusercontent.com/36451701/129460837-711f9aad-88f6-4455-938a-f8e5604937d2.png)
+
 
 ## Challenge Summary:
