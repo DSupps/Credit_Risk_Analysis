@@ -41,6 +41,9 @@ Software:
 
 ![randomoversampler_classification_report](https://user-images.githubusercontent.com/36451701/129460579-f27c5f5a-5265-4dfd-9e11-63cd73f34036.png)
 
+   - Accuracy Score for the RandomOverSampler model is 63%
+   - The precision for the high-risk is 1% and F1 score is 2%, which are not good enough to state that the model will be good at classifying.
+
 ### SMOTE Oversampling Model:
 
 ![smote_balanced_accuracy](https://user-images.githubusercontent.com/36451701/129460626-00ce42b6-f294-4423-b0b7-f9d7efd8422c.png)
@@ -48,6 +51,10 @@ Software:
 ![randomoversampler_confusion_matrix](https://user-images.githubusercontent.com/36451701/129460629-c3de3ce0-0b7a-41d2-bc07-371b460f2738.png)
 
 ![randomoversampler_classification_report](https://user-images.githubusercontent.com/36451701/129460631-6f5e94c8-5291-4cae-ab30-1ffb2ba626a6.png)
+
+   - The accuracy score of the SMOTE model is a little bit better than the RandomOverSampler.
+   - The precision for the high-risk is very low at 1%, indicating a large number of false positives, which indicates an unreliable classification.
+   - The F1 score is 2% which also very low. 
 
 ### Undersampling ClusterCentroids Model:
 
