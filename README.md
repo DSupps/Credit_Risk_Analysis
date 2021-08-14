@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-## Challenge Overview:
+## Credit Risk Analysis Challenge Overview:
 *Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.*
 
 *Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm.*
@@ -27,7 +27,7 @@ Software:
     - Python
 
 
-## Challenge Results:
+## Credit Risk Analysis Challenge Results:
 
 ## Deliverable 1 Results: Use Resampling Models to Predict Credit Risk
 ### Oversampling RandomOverSampler Model:
@@ -76,4 +76,4 @@ Software:
 ![Easy_Ensemble_AdaBoost_Classifier](https://user-images.githubusercontent.com/36451701/129460837-711f9aad-88f6-4455-938a-f8e5604937d2.png)
 
 
-## Challenge Summary:
+## Credit Risk Analysis Challenge Summary:
