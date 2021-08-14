@@ -9,8 +9,8 @@
 
    - *Oversample the data using the RandomOverSampler and SMOTE algorithms.*
    - *Undersample the data using the ClusterCentroids algorithm.*
-   - A combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
-   - Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+   - *A combinatorial approach of over- and undersampling using the SMOTEENN algorithm.*
+   - *Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.*
 
 *Once these models have been completed, their performance will be evaluated and a written recommendation will be made on whether they should be used to predict credit risk*
 
@@ -26,8 +26,8 @@ Data Sources:
     - LoanStats_2019Q1.csv
 
 Software:
-    - Jupyter Notebook
-    - Python
+    - Jupyter Notebook 6.1.4
+    - Python 3.8.5
 
 
 ## Credit Risk Analysis Challenge Results:
