@@ -38,14 +38,20 @@ Software:
 ![randomoversampler_classification_report](https://user-images.githubusercontent.com/36451701/129460579-f27c5f5a-5265-4dfd-9e11-63cd73f34036.png)
 
 #### SMOTE Oversampling Model:
-smote image 1
-smote image 2
-smote image 3
+
+![smote_balanced_accuracy](https://user-images.githubusercontent.com/36451701/129460626-00ce42b6-f294-4423-b0b7-f9d7efd8422c.png)
+
+![randomoversampler_confusion_matrix](https://user-images.githubusercontent.com/36451701/129460629-c3de3ce0-0b7a-41d2-bc07-371b460f2738.png)
+
+![randomoversampler_classification_report](https://user-images.githubusercontent.com/36451701/129460631-6f5e94c8-5291-4cae-ab30-1ffb2ba626a6.png)
 
 #### Undersampling ClusterCentroids Model:
-undersample image 1
-undersample image 2
-undersample image 3
+
+![undersampling_balanced_accuracy](https://user-images.githubusercontent.com/36451701/129460635-91291144-4e69-4b62-a191-765d0e4dd7a8.png)
+
+![undersampling_classification_report](https://user-images.githubusercontent.com/36451701/129460638-c9605e7a-91cc-499f-8490-3f82de939349.png)
+
+![undersampling_confusion_matrix](https://user-images.githubusercontent.com/36451701/129460640-fa638bb6-0616-4e16-9d75-1d3d88f3f2ec.png)
 
 ### Deliverable 2 Results: Use the SMOTEENN Algorithm to Predict Credit Risk
 
