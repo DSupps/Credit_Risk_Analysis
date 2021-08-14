@@ -30,9 +30,12 @@ Software:
 
 ### Deliverable 1 Results: Use Resampling Models to Predict Credit Risk
 #### Oversampling RandomOverSampler Model:
-randomsampler image 1
-randomsampler image 2
-randomsampler image 3
+
+![randomoversampler_balanced_accuracy](https://user-images.githubusercontent.com/36451701/129460568-458b92a1-a644-4a1b-b27c-1b2a877df4b8.png)
+
+![randomoversampler_confusion_matrix](https://user-images.githubusercontent.com/36451701/129460574-f136466c-779f-468c-892f-fd2aa55de885.png)
+
+![randomoversampler_classification_report](https://user-images.githubusercontent.com/36451701/129460579-f27c5f5a-5265-4dfd-9e11-63cd73f34036.png)
 
 #### SMOTE Oversampling Model:
 smote image 1
