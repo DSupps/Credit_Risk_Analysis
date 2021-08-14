@@ -64,6 +64,9 @@ Software:
 
 ![undersampling_classification_report](https://user-images.githubusercontent.com/36451701/129460638-c9605e7a-91cc-499f-8490-3f82de939349.png)
 
+   - The 51% accuracy score of ClusterCentrois model performs poorly when compared to the RandomOverSampler and SMOTE models.
+   - The precision (1%) and the F1 (1%) are still very low just like the RandomOverSampler and SMOTE models.
+
 ## Deliverable 2 Results: Use the SMOTEENN Algorithm to Predict Credit Risk
 
 ### Combination Sampling SMOTEENN Model:
@@ -74,6 +77,8 @@ Software:
 
 ![combo_classification_report](https://user-images.githubusercontent.com/36451701/129460736-eda47aad-3b26-4be5-8599-0c853f49e2b7.png)
 
+   - We do see an increase accuarcy score (63%) over the ClusterCentroids model (51%) but still about same as RandomOverSampler and SMOTE models accuarcy scores.
+   - The precision (1%) and the F1 (1%) are still very low for high-risk group, just like the RandomOverSampler, SMOTE and Clustercentroids models.
 
 ## Deliverable 3 Results: Use Ensemble Classifiers to Predict Credit Risk
 
