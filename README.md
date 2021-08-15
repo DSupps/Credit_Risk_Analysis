@@ -21,8 +21,8 @@
    - Deliverable 4: A Written Report on the Credit Risk Analysis
 
 ### Resources:
-Data Sources: 
-    - LoanStats_2019Q1.csv
+Data Sources:
+   - LoanStats_2019Q1.cs
 
 Software:
    - Jupyter Notebook 6.1.4
