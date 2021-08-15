@@ -102,6 +102,13 @@ Software:
 
 Overview of the analysis: Explain the purpose of this analysis.
 
+   - The performance of all the models showed very poor precison for accessing if a credit risk is high. 
+   - A majority of the models had accuarcy score ranging between 51% - 65%
+   - The Balanced Random Forest Classifier and Easy Ensemble
+
+
+their performance will be evaluated and a written recommendation will be made on whether they should be used to predict credit risk*
+
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
