@@ -25,9 +25,8 @@ Data Sources:
     - LoanStats_2019Q1.csv
 
 Software:
-    - Jupyter Notebook 6.1.4
-    - Python 3.8.5
-
+   - Jupyter Notebook 6.1.4
+   - Python 3.8.5
 
 ## Credit Risk Analysis Project Results:
 
