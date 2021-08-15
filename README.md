@@ -7,7 +7,7 @@
 
 *Once these models have been completed, their performance will be evaluated and a written recommendation will be made on whether they should be used to predict credit risk*
 
-### Technicals used in this project to predit credit risk:
+### Technical used in this project to predict credit risk:
 
    - Oversample the data using the RandomOverSampler and SMOTE algorithms.
    - Undersample the data using the ClusterCentroids algorithm.
@@ -77,7 +77,7 @@ Software:
 
 ![combo_classification_report](https://user-images.githubusercontent.com/36451701/129460736-eda47aad-3b26-4be5-8599-0c853f49e2b7.png)
 
-   - We do see an increase accuarcy score (63%) over the ClusterCentroids model (51%) but still about same as RandomOverSampler and SMOTE models accuarcy scores.
+   - We do see an increase accuracy  score (63%) over the ClusterCentroids model (51%) but still about same as RandomOverSampler and SMOTE models accuracy scores.
    - The precision (1%) and the F1 (1%) are still very low for high-risk group, just like the RandomOverSampler, SMOTE and Clustercentroids models.
 
 ## Deliverable 3 Results: Use Ensemble Classifiers to Predict Credit Risk
@@ -86,7 +86,7 @@ Software:
 
 ![balanced_random_forest_classification](https://user-images.githubusercontent.com/36451701/129460824-8527e234-53ee-4489-afb2-327c5794b0a0.png)
 
-   - The precision score for the high-risk has imporved at bit (4%), but still indicates a large number of false positives, which indicates an unreliable positive classification.
+   - The precision score for the high-risk has improved a bit (4%), but still indicates a large number of false positives, which indicates an unreliable positive classification.
    - The F1 score is still low (14) but improving.
 
 ### Easy Ensemble AdaBoost Classifier Model:
@@ -102,20 +102,15 @@ Software:
 
 Overview of the analysis: Explain the purpose of this analysis.
 
-   - The performance of all the models showed very poor precison for accessing if a credit risk is high. 
-   - A majority of the models had accuarcy score ranging between 51% - 65%
+After creating and evaluating these machine learning models it's easy to see that all the models show poor precision when it comes to predicting if a credit risk is high. 
+
+It wasn't until the Ensemble models (Easy Ensemble AdaBoost Classifier especially) were used that there was an improvement in accuracy scores.  The EasyEnsembleClassifier model did show strong recall for both high-risk(91%) and low-risk(94%).
+
+Key takeaways from Predicting Credit Risk Project:
+
+   - The performance of all the models showed very poor precision for accessing if a credit risk is high. 
+   - A majority of the models had accuracy score ranging between 51% - 65%
    - The Balanced Random Forest Classifier and Easy Ensemble
 
+I would not recommend any use of these models to predict credit risk. Using these models could lead LendingClub to reject high-risk individuals when, in fact, they are low-risk. 
 
-their performance will be evaluated and a written recommendation will be made on whether they should be used to predict credit risk*
-
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results
-
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
-There are two things you may research to improve your model.
-
-Modify your model
-Balance your dataset to improve data quality
-
-Such is why the F1 score is so important in evaluating models on unbalanced datasets; it accounts for the performance of all classes.
