@@ -1,19 +1,18 @@
 # Credit_Risk_Analysis
 
-## Credit Risk Analysis Challenge Overview:
+## Credit Risk Analysis Project Overview:
 *Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.*
 
 *Using a credit card credit dataset and Python, several machine learning modules will be used to evaluate and predict credit risk.*
 
-*Techniques used to predit credit risk:*
-
-   - *Oversample the data using the RandomOverSampler and SMOTE algorithms.*
-   - *Undersample the data using the ClusterCentroids algorithm.*
-   - *A combinatorial approach of over- and undersampling using the SMOTEENN algorithm.*
-   - *Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.*
-
 *Once these models have been completed, their performance will be evaluated and a written recommendation will be made on whether they should be used to predict credit risk*
 
+Technicals used in this project to predit credit risk:
+
+   - Oversample the data using the RandomOverSampler and SMOTE algorithms.
+   - Undersample the data using the ClusterCentroids algorithm.
+   - A combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
+   - Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 
 ### Deliverables:
    - Deliverable 1: Use Resampling Models to Predict Credit Risk
@@ -30,7 +29,7 @@ Software:
     - Python 3.8.5
 
 
-## Credit Risk Analysis Challenge Results:
+## Credit Risk Analysis Project Results:
 
 ## Deliverable 1 Results: Use Resampling Models to Predict Credit Risk
 ### Oversampling RandomOverSampler Model:
@@ -99,7 +98,7 @@ Software:
    - The low-risk precision (1.0) and recall (94) and F1 (97) are the highest of all the models. 
 
 
-## Credit Risk Analysis Challenge Summary:
+## Credit Risk Analysis Project Summary:
 
 Overview of the analysis: Explain the purpose of this analysis.
 
