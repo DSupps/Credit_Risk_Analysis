@@ -64,8 +64,9 @@ Software:
 
 ![undersampling_classification_report](https://user-images.githubusercontent.com/36451701/129460638-c9605e7a-91cc-499f-8490-3f82de939349.png)
 
-   - The 51% accuracy score of ClusterCentrois model performs poorly when compared to the RandomOverSampler and SMOTE models.
+   - The 51% accuracy score of ClusterCentroids model performs poorly when compared to the RandomOverSampler and SMOTE models.
    - The precision (1%) and the F1 (1%) are still very low just like the RandomOverSampler and SMOTE models.
+   - The ClusterCentroids model is not good at classifying fraudulent loan applications because the model's accuracy, 0.516, and F1 score are low.
 
 ## Deliverable 2 Results: Use the SMOTEENN Algorithm to Predict Credit Risk
 
@@ -85,6 +86,9 @@ Software:
 ### Balanced Random Forest Classifier Model:
 
 ![balanced_random_forest_classification](https://user-images.githubusercontent.com/36451701/129460824-8527e234-53ee-4489-afb2-327c5794b0a0.png)
+
+   - The precision score for the high-risk has imporved at bit (4%), but still indicates a large number of false positives, which indicates an unreliable positive classification.
+   - The F1 score is still low (14) but improving.
 
 ### Easy Ensemble AdaBoost Classifier Model:
 
