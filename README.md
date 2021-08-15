@@ -7,7 +7,7 @@
 
 *Once these models have been completed, their performance will be evaluated and a written recommendation will be made on whether they should be used to predict credit risk*
 
-Technicals used in this project to predit credit risk:
+### Technicals used in this project to predit credit risk:
 
    - Oversample the data using the RandomOverSampler and SMOTE algorithms.
    - Undersample the data using the ClusterCentroids algorithm.
