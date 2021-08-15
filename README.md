@@ -94,6 +94,10 @@ Software:
 
 ![Easy_Ensemble_AdaBoost_Classifier](https://user-images.githubusercontent.com/36451701/129460837-711f9aad-88f6-4455-938a-f8e5604937d2.png)
 
+   - The accuracy score of the EasyEnsembleClassifier model is a much improved 93% over all the other models. 
+   - The high-risk precision (7) and F1 score (14) have improved over all the other models. 
+   - The low-risk precision (1.0) and recall (94) and F1 (97) are the highest of all the models. 
+
 
 ## Credit Risk Analysis Challenge Summary:
 
@@ -102,3 +106,10 @@ Overview of the analysis: Explain the purpose of this analysis.
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+There are two things you may research to improve your model.
+
+Modify your model
+Balance your dataset to improve data quality
+
+Such is why the F1 score is so important in evaluating models on unbalanced datasets; it accounts for the performance of all classes.
