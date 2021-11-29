@@ -111,5 +111,5 @@ Key takeaways from Predicting Credit Risk Project:
    - A majority of the models had accuracy score ranging between 51% - 65%
    - The Balanced Random Forest Classifier and Easy Ensemble
 
-I would not recommend any use of these models to predict credit risk. Using these models could lead LendingClub to reject high-risk individuals when, in fact, they are low-risk. 
+I would not recommend any use of these models to predict credit risk. Using these models could lead LendingClub to reject high-risk individuals when, in fact, they are low-risk.. 
 
